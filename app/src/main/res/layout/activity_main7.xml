@@ -7,6 +7,9 @@
     android:background="@color/black"
     tools:context=".MainActivity7">
 
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
