@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="6dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="297dp"
+        android:text="@string/pinky_pie"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/_12_watching"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="152dp"
+        android:text="@string/_230_watchers"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/my_favourite_movie_is_war_and_piece"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="209dp"
+        android:text="@string/no_movie_added_here"
+        android:textColor="#686464"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="124dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/photo1633847356__8_" />
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/photo1633847356__4_" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView20"
+        app:srcCompat="@drawable/photo1633847356__5_" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo1633847356__7_" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
